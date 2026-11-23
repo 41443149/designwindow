@@ -23,8 +23,126 @@
      <height>33</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>檔案</string>
+    </property>
+    <widget class="QMenu" name="menu_2">
+     <property name="title">
+      <string>開啟(&amp;D)</string>
+     </property>
+     <addaction name="actionqfqf"/>
+     <addaction name="actionqfwq"/>
+     <addaction name="actionwgw"/>
+     <addaction name="separator"/>
+     <addaction name="actionqtf"/>
+     <addaction name="action22t"/>
+     <addaction name="separator"/>
+     <addaction name="actionfq"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="menu_2"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>編輯</string>
+    </property>
+    <addaction name="actionxs"/>
+    <addaction name="action_T"/>
+    <addaction name="action_C"/>
+    <addaction name="action_A"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_3"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionwwf">
+   <property name="text">
+    <string>wwf</string>
+   </property>
+  </action>
+  <action name="actionqfqf">
+   <property name="text">
+    <string>新增(&amp;N)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionqfwq">
+   <property name="text">
+    <string>開啟(&amp;O)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionwgw">
+   <property name="text">
+    <string>關閉(&amp;C)</string>
+   </property>
+  </action>
+  <action name="actionqtf">
+   <property name="text">
+    <string>儲存(&amp;S)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="action22t">
+   <property name="text">
+    <string>另存(&amp;A)</string>
+   </property>
+  </action>
+  <action name="actionfq">
+   <property name="text">
+    <string>退出(&amp;X)</string>
+   </property>
+  </action>
+  <action name="actiontgk">
+   <property name="text">
+    <string>在此輸入</string>
+   </property>
+  </action>
+  <action name="actionkt">
+   <property name="text">
+    <string>kt</string>
+   </property>
+  </action>
+  <action name="actionxs">
+   <property name="text">
+    <string>還原(&amp;U)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="action_T">
+   <property name="text">
+    <string>剪下(&amp;T)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="action_C">
+   <property name="text">
+    <string>複製(&amp;C)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="action_A">
+   <property name="text">
+    <string>全選(&amp;A)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
